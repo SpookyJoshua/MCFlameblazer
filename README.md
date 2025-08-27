@@ -11,7 +11,7 @@ This datapack adds a controllable flame jet effect with the following features:
 ---
 
 ## Installation
-1. Copy `FlameblazerJet_1.20.1_HEIGHT_CONT_LEN_CLEAN2.zip` to your world:
+1. Copy the zip to your world:
    ```
    .minecraft/saves/<YourWorld>/datapacks/
    ```
