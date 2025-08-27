@@ -1,0 +1,10 @@
+tellraw @s ["",
+{"text":"[Flameblazer Settings]\n","color":"gold","bold":true},
+{"text":"Duration: ","color":"yellow"},{"score":{"name":"fb","objective":"fbDuration"},"color":"white"},{"text":" (1=1s..5=5s)\n","color":"gray"},
+{"text":"Speed: ","color":"yellow"},{"score":{"name":"fb","objective":"fbSpeed"},"color":"white"},{"text":" (1=slow..5=fast)\n","color":"gray"},
+{"text":"Colour: ","color":"yellow"},{"text":"0=Flame  1=Soul (/trigger fb_color)\n","color":"white"},
+{"text":"Smoke: ","color":"yellow"},{"text":"0/1 (/trigger fb_smoke)\n","color":"white"},
+{"text":"Start Height: ","color":"yellow"},{"score":{"name":"fb","objective":"fbHeight"},"color":"white"},{"text":" (1..10)  /trigger fb_height_plus | fb_height_minus\n","color":"gray"},
+{"text":"Flame Length: ","color":"yellow"},{"score":{"name":"fb","objective":"fbLength"},"color":"white"},{"text":" (1..10 short→tall)  /trigger fb_len_plus | fb_len_minus\n","color":"gray"},
+{"text":"Continuous: ","color":"yellow"},{"score":{"name":"fb","objective":"fbContinuous"},"color":"white"},{"text":" (0=off 1=on) /trigger fb_continuous\n","color":"gray"},
+{"text":"Fire now: /trigger fb_fire  •  Command block: function flameblazer:burst","color":"gold"}]

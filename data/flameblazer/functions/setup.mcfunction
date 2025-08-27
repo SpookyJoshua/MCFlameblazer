@@ -1,0 +1,1 @@
+tellraw @a {"text":"[Flameblazer] /trigger fb_fire • /trigger fb_menu (settings)","color":"gold"}
